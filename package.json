@@ -1,0 +1,24 @@
+{
+  "name": "Library-Management-System-MERN",
+  "version": "1.0.0",
+  "description": "Library management system API",
+  "main": "app.js",
+  "repository": "https://github.com/YasiraBanuka/Library-Management-System-MERN.git",
+  "author": "Yasira Banuka",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
